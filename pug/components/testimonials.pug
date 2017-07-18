@@ -1,0 +1,10 @@
+mixin testimonials(options)
+
+  - imgName = options.imgName || '';
+  
+  .testimonial
+    img(src='img/people/'+ imgName +'.png' alt=imgName)
+    .testomonial-box
+      img.small-item(src="img/icons/quotes2.png" alt="greyquotes")
+      p.testimonial-sayings Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporesse cillum dolore eu fugiat nulla eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporesse cillum dolore eu fugiat nulla eu fugiat nulla pariatur.
+      p.testimonial-signature John Doe,Ceo

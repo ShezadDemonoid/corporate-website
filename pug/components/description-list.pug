@@ -1,0 +1,11 @@
+mixin descriptionList(options)
+
+  - imgName = options.imgName || '';
+  - imgTitle = options.imgTitle || '';
+  - imgPara = options.imgPara || 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporesse cillum dolore eu fugiat nulla eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporesse cillum dolore eu fugiat nulla eu fugiat nulla pariatur.';
+
+  .description-list
+    img(src='img/icons/'+ imgName +'.png' alt=imgName)
+    .content-box
+      h3= imgTitle 
+      p= imgPara

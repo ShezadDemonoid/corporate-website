@@ -1,0 +1,16 @@
+.container {
+  max-width: 1193px;
+  margin: 0 auto; }
+
+.hero-title {
+  color: #f00;
+  font-family: lato; }
+
+.title-highlight {
+  color: orange; }
+
+.hero-title__inverted {
+  color: #0f0; }
+
+.l-banner__wrapper {
+  background-image: url(img/background.png); }

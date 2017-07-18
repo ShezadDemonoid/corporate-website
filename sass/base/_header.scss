@@ -1,0 +1,78 @@
+
+  .l-header{
+  background:url(../img/bg/bg-hero.png);
+
+    .logo-header{
+      .logo-header__img{
+        padding-right: 5px;
+        padding-bottom: 0px;
+        padding-top: 0;
+        margin-top: 25px;
+
+
+      }
+      .logo-text{
+      font-family: lato;
+      font-weight: bold; 
+      font-size: 40px;  
+      color: white;
+    }
+
+    .l-nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0 300px;
+        overflow: hidden; 
+        display: fixed;
+
+        
+    }
+      li {
+        float: left;
+      } 
+      li a {
+        font-family: lato;
+        font-weight: bold; 
+        text-transform: uppercase;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0 16px;
+        text-decoration: none;
+    } 
+      li a:hover {
+        background-color: orange;
+    }
+    }
+    
+  
+  
+    .l-nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0 300px;
+        overflow: hidden; 
+        display: fixed;
+
+        
+    }
+      li {
+        float: left;
+      } 
+      li a {
+        font-family: lato;
+        font-weight: bold; 
+        text-transform: uppercase;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0 16px;
+        text-decoration: none;
+    } 
+      li a:hover {
+        background-color: orange;
+    }
+}
+  .hero-box{
+    width: 584px;
+  }

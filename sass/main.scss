@@ -1,0 +1,14 @@
+@import '../node_modules/normalize-scss/sass/normalize';
+@include normalize();
+
+@import '../node_modules/avalanche-css/avalanche';
+
+@import 'base/common';
+@import 'base/header';
+
+@import 'layout/background-img';
+@import 'layout/about-layout';
+
+@import 'components/button';
+@import 'components/picture-size';
+@import 'components/banner';

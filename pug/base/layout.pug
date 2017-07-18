@@ -1,0 +1,17 @@
+include mixins
+
+doctype html
+html(lang="en")
+  head
+    include head
+  body
+    .wrapper
+
+      header.l-header
+        include header
+
+      main.l-main
+        block main
+
+      footer.l-footer
+        include footer

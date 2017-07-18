@@ -1,0 +1,39 @@
+.layer-size
+      .container
+        .grid
+          .grid__cell(class="1/2")
+            header
+              h1.hero-title Get
+              span.title-highlight in Touch
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. 
+
+          .grid__cell(class="1/2")   
+            +logo()
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+            +contact({
+              imgName: 'icon-email',
+              contactTitle:'Email',
+              option1:'free@psdfreebies.com',
+              option2:'free@psdfreebies.com',
+            })
+            +contact({
+              imgName: 'icon-call-us',
+              contactTitle:'Call us!',
+              option1:'+123 456 7890',
+              option2:'+123 456 7890',
+            })
+            +contact({
+              imgName: 'icon-address',
+              contactTitle:'Address',
+              option1:'123, Main Road, New City, ',
+              option2:'My Country 123456',
+            })
+            
+            .contact-social-icon
+              img(src="img/icons/icon-fb-black.png" alt="icon-fb-black")
+              img(src="img/icons/icon-google.png" alt="icon-google")
+              img(src="img/icons/icon-vk.png" alt="icon-vk")
+              img(src="img/icons/icon-youtube.png" alt="icon-youtube")
+              img(src="img/icons/icon-linkedin.png" alt="icon-linkedin")
+              img(src="img/icons/icon-digg.png" alt="icon-digg")
+              img(src="img/icons/icon-z.png" alt="icon-z")

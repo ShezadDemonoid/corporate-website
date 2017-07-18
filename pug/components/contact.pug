@@ -1,0 +1,13 @@
+mixin contact(options)
+
+  - imgName = options.imgName || '';
+  - contactTitle = options.contactTitle|| '';
+  - option1 = options.option1 || '';
+  - option2 = options.option2 || ''; 
+  
+  .contact
+    img(src='img/icons/'+ imgName +'.png' alt=imgName)
+    .contact-box
+      p=contactTitle
+      p=option1
+      p=option2
